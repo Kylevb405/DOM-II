@@ -30,7 +30,7 @@ let clickListener = document.querySelector('.footer')
             event.target.style.backgroundColor = 'red'
     })
 
-footer.addEventListener('click', (e) => e.stopPropagation())
+addEventListener('click', (e) => e.stopPropagation())
     
 let dblclickListener = document.querySelector('.footer')
     dblclickListener.addEventListener('dblclick', event => {
